@@ -1,0 +1,123 @@
+<html>
+    <head>
+       <title>sudoku</title> 
+        <link rel="stylesheet" href="game_page.css"/>
+    </head>
+    <body>
+        <div id="header"><h1>Sudoku Game</h1></div
+            >
+        <div id="main">
+            <form id="form1">
+            <table>
+                <tr>
+                    <td id="d0.0"><input type="text" maxlength="1" oninput="GetInputValue(this.value , 0 ,0)"></td>
+                    <td id="d0.1"><input type="text" maxlength="1" oninput="GetInputValue(this.value , 0 ,1)"></td>
+                    <td id="d0.2" class="strong_border"><input type="text" maxlength="1" oninput="GetInputValue(this.value , 0 ,2)"></td>
+                    <td id="d0.3"><input type="text" maxlength="1" oninput="GetInputValue(this.value , 0 ,3)"></td>
+                    <td id="d0.4"><input type="text" maxlength="1" oninput="GetInputValue(this.value , 0 ,4)"></td>
+                    <td id="d0.5" class="strong_border"><input type="text" maxlength="1" oninput="GetInputValue(this.value , 0 ,5)"></td>
+                    <td id="d0.6"><input type="text" maxlength="1" oninput="GetInputValue(this.value , 0 ,6)"></td>
+                    <td id="d0.7"><input type="text" maxlength="1" oninput="GetInputValue(this.value , 0 ,7)"></td>
+                    <td id="d0.8"><input type="text" maxlength="1" oninput="GetInputValue(this.value , 0 ,8)"></td>
+                </tr>
+                <tr>
+                    <td id="d1.0"><input type="text" maxlength="1" oninput="GetInputValue(this.value , 1 ,0)"></td>
+                    <td id="d1.1"><input type="text" maxlength="1" oninput="GetInputValue(this.value , 1 ,1)"></td>
+                    <td id="d1.2" class="strong_border"><input type="text" maxlength="1" oninput="GetInputValue(this.value , 1 ,2)"></td>
+                    <td id="d1.3"><input type="text" maxlength="1" oninput="GetInputValue(this.value , 1 ,3)"></td>
+                    <td id="d1.4"><input type="text" maxlength="1" oninput="GetInputValue(this.value , 1 ,4)"></td>
+                    <td id="d1.5" class="strong_border"><input type="text" maxlength="1" oninput="GetInputValue(this.value , 1 ,5)"></td>
+                    <td id="d1.6"><input type="text" maxlength="1" oninput="GetInputValue(this.value , 1 ,6)"></td>
+                    <td id="d1.7"><input type="text" maxlength="1" oninput="GetInputValue(this.value , 1 ,7)"></td>
+                    <td id="d1.8"><input type="text" maxlength="1" oninput="GetInputValue(this.value , 1 ,8)"></td>
+                </tr>
+                <tr id="line3">
+                    <td id="d2.0"><input type="text" maxlength="1" oninput="GetInputValue(this.value , 2 ,0)"></td>
+                    <td id="d2.1"><input type="text" maxlength="1" oninput="GetInputValue(this.value , 2 ,1)"></td>
+                    <td id="d2.2" class="strong_border"><input type="text" maxlength="1" oninput="GetInputValue(this.value , 2 ,2)"></td>
+                    <td id="d2.3"><input type="text" maxlength="1" oninput="GetInputValue(this.value , 2 ,3)"></td>
+                    <td id="d2.4"><input type="text" maxlength="1" oninput="GetInputValue(this.value , 2 ,4)"></td>
+                    <td id="d2.5" class="strong_border"><input type="text" maxlength="1" oninput="GetInputValue(this.value , 2 ,5)"></td>
+                    <td id="d2.6"><input type="text" maxlength="1" oninput="GetInputValue(this.value , 2 ,6)"></td>
+                    <td id="d2.7"><input type="text" maxlength="1" oninput="GetInputValue(this.value , 2 ,7)"></td>
+                    <td id="d2.8"><input type="text" maxlength="1" oninput="GetInputValue(this.value , 2 ,8)"></td>
+                </tr>
+                <tr>
+                        <td id="d3.0"><input type="text" maxlength="1" oninput="GetInputValue(this.value , 3 ,0)"></td>
+                        <td id="d3.1"><input type="text" maxlength="1" oninput="GetInputValue(this.value , 3 ,1)"></td>
+                        <td id="d3.2" class="strong_border"><input type="text" maxlength="1" oninput="GetInputValue(this.value , 3 ,2)"></td>
+                        <td id="d3.3"><input type="text" maxlength="1" oninput="GetInputValue(this.value , 3 ,3)"></td>
+                        <td id="d3.4"><input type="text" maxlength="1" oninput="GetInputValue(this.value , 3 ,4)"></td>
+                        <td id="d3.5" class="strong_border"><input type="text" maxlength="1" oninput="GetInputValue(this.value , 3 ,5)"></td>
+                        <td id="d3.6"><input type="text" maxlength="1" oninput="GetInputValue(this.value , 3 ,6)"></td>
+                        <td id="d3.7"><input type="text" maxlength="1" oninput="GetInputValue(this.value , 3 ,7)"></td>
+                        <td id="d3.8"><input type="text" maxlength="1" oninput="GetInputValue(this.value , 3 ,8)"></td>
+                    </tr>
+                    <tr>
+                        <td id="d4.0"><input type="text" maxlength="1" oninput="GetInputValue(this.value , 4 ,0)"></td>
+                        <td id="d4.1"><input type="text" maxlength="1" oninput="GetInputValue(this.value , 4 ,1)"></td>
+                        <td id="d4.2"class="strong_border"><input type="text" maxlength="1" oninput="GetInputValue(this.value , 4 ,2)"></td>
+                        <td id="d4.3"><input type="text" maxlength="1" oninput="GetInputValue(this.value , 4 ,3)"></td>
+                        <td id="d4.4"><input type="text" maxlength="1" oninput="GetInputValue(this.value , 4 ,4)"></td>
+                        <td id="d4.5" class="strong_border"><input type="text" maxlength="1" oninput="GetInputValue(this.value , 4 ,5)"></td>
+                        <td id="d4.6"><input type="text" maxlength="1" oninput="GetInputValue(this.value , 4 ,6)"></td>
+                        <td id="d4.7"><input type="text" maxlength="1" oninput="GetInputValue(this.value , 4 ,7)"></td>
+                        <td id="d4.8"><input type="text" maxlength="1" oninput="GetInputValue(this.value , 4 ,8)"></td>
+                    </tr>
+                    <tr id="line6">
+                        <td id="d5.0"><input type="text" maxlength="1" oninput="GetInputValue(this.value , 5 ,0)"></td>
+                        <td id="d5.1"><input type="text" maxlength="1" oninput="GetInputValue(this.value , 5 ,1)"></td>
+                        <td id="d5.2" class="strong_border"><input type="text" maxlength="1" oninput="GetInputValue(this.value , 5 ,2)"></td>
+                        <td id="d5.3"><input type="text" maxlength="1" oninput="GetInputValue(this.value , 5 ,3)"></td>
+                        <td id="d5.4"><input type="text" maxlength="1" oninput="GetInputValue(this.value , 5 ,4)"></td>
+                        <td id="d5.5"class="strong_border"><input type="text" maxlength="1" oninput="GetInputValue(this.value , 5 ,5)"></td>
+                        <td id="d5.6"><input type="text" maxlength="1" oninput="GetInputValue(this.value , 5 ,6)"></td>
+                        <td id="d5.7"><input type="text" maxlength="1" oninput="GetInputValue(this.value , 5 ,7)"></td>
+                        <td id="d5.8"><input type="text" maxlength="1" oninput="GetInputValue(this.value , 5 ,8)"></td>
+                    </tr>
+                    <tr>
+                            <td id="d6.0"><input type="text" maxlength="1" oninput="GetInputValue(this.value , 6 ,0)"></td>
+                            <td id="d6.1"><input type="text" maxlength="1" oninput="GetInputValue(this.value , 6 ,1)"></td>
+                            <td id="d6.2" class="strong_border"><input type="text" maxlength="1" oninput="GetInputValue(this.value , 6 ,2)"></td>
+                            <td id="d6.3"><input type="text" maxlength="1" oninput="GetInputValue(this.value , 6 ,3)"></td>
+                            <td id="d6.4"><input type="text" maxlength="1" oninput="GetInputValue(this.value , 6 ,4)"></td>
+                            <td id="d6.5" class="strong_border"><input type="text" maxlength="1" oninput="GetInputValue(this.value , 6 ,5)"></td>
+                            <td id="d6.6"><input type="text" maxlength="1" oninput="GetInputValue(this.value , 6 ,6)"></td>
+                            <td id="d6.7"><input type="text" maxlength="1" oninput="GetInputValue(this.value , 6 ,7)"></td>
+                            <td id="d6.8"><input type="text" maxlength="1" oninput="GetInputValue(this.value , 6 ,8)"></td>
+                    </tr>
+                    <tr>
+                            <td id="d7.0"><input type="text" maxlength="1" oninput="GetInputValue(this.value , 7 ,0)"></td>
+                            <td id="d7.1"><input type="text" maxlength="1" oninput="GetInputValue(this.value , 7 ,1)"></td>
+                            <td id="d7.2" class="strong_border"><input type="text" maxlength="1" oninput="GetInputValue(this.value , 7 ,2)"></td>
+                            <td id="d7.3"><input type="text" maxlength="1" oninput="GetInputValue(this.value , 7 ,3)"></td>
+                            <td id="d7.4"><input type="text" maxlength="1" oninput="GetInputValue(this.value , 7 ,4)"></td>
+                            <td id="d7.5" class="strong_border"><input type="text" maxlength="1" oninput="GetInputValue(this.value , 7 ,5)"></td>
+                            <td id="d7.6"><input type="text" maxlength="1" oninput="GetInputValue(this.value , 7 ,6)"></td>
+                            <td id="d7.7"><input type="text" maxlength="1" oninput="GetInputValue(this.value , 7 ,7)"></td>
+                            <td id="d7.8"><input type="text" maxlength="1" oninput="GetInputValue(this.value , 7 ,8)"></td>
+                    </tr>
+                    <tr>
+                            <td id="d8.0"><input type="text" maxlength="1" oninput="GetInputValue(this.value , 8 ,0)"></td>
+                            <td id="d8.1"><input type="text" maxlength="1" oninput="GetInputValue(this.value , 8 ,1)"></td>
+                            <td id="d8.2" class="strong_border"><input type="text" maxlength="1" oninput="GetInputValue(this.value , 8 ,2)"></td>
+                            <td id="d8.3"><input type="text" maxlength="1" oninput="GetInputValue(this.value , 8 ,3)"></td>
+                            <td id="d8.4"><input type="text" maxlength="1" oninput="GetInputValue(this.value , 8 ,4)"></td>
+                            <td id="d8.5" class="strong_border"><input type="text" maxlength="1" oninput="GetInputValue(this.value , 8 ,5)"></td>
+                            <td id="d8.6"><input type="text" maxlength="1" oninput="GetInputValue(this.value , 8 ,6)"></td>
+                            <td id="d8.7"><input type="text" maxlength="1" oninput="GetInputValue(this.value , 8 ,7)"></td>
+                            <td id="d8.8"><input type="text" maxlength="1" oninput="GetInputValue(this.value , 8 ,8)"></td>
+                    </tr> 
+            </table>
+        </div>
+        <div id="bottom">
+            <input type="button" id="again_btn" onclick="againMatBtn()" value="Reset">
+        </form>
+            <button onclick="checkSudoku(mat)" id="finish_btn">finish</button>
+            <a href="chooseLevel.html"> <button id="change_btn">change level</button></a>
+        </div>
+    
+        <script src="game_page.js"></script>
+       
+    </body>
+</html>

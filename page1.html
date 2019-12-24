@@ -1,0 +1,27 @@
+<html>
+    <head>
+       <title>welcome to sudoku</title> 
+        <link rel="stylesheet" href="page1.css"/>
+    </head>
+    <body>
+
+        <div id="header"><h1>Sudoku Game</h1></div>
+        <div id="main">
+            <input id="name" type="text" placeholder="User Name" maxlength="4" required> <br>
+            <div id="wrong_name"></div>
+            <input id="password" type="password" placeholder="password" maxlength="4" required><br>
+            <div id="wrong_password"></div>
+        </div>
+
+        <div id="button">
+            <div>
+            <button onclick="checkLogin()">Login</button>
+            </div>
+            <div id="bottom_buttons">
+            <a href="game_page.html"><button>Guest Enter</button></a> 
+            </div>
+        </div>
+        <script src="page1.js"></script>
+       
+    </body>
+</html>

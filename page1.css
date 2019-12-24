@@ -1,0 +1,115 @@
+#header,#main, #button , #finish_main , #finish_buttons{    
+    height: 20%;
+    margin-left:20%;
+    margin-right: 20%;
+    text-align: center;
+    padding-top: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-left: 10px  black solid; 
+    border-right: 10px  black solid; 
+}
+body{
+    margin: 0%;
+}
+#header{
+    background-color: lightblue;
+    height: 35%;
+    letter-spacing: 3px;
+    font-size: 50px;
+    text-shadow: gray 3px 3px;
+    padding-top: 80px;
+}
+
+#main{ 
+    background-color:plum; 
+}
+
+#button{
+    background-color: plum;
+    height: 30%;
+}
+#bottom_buttons{
+    margin-top: 40px;
+    
+}
+input{
+    margin: 10px;
+    padding: 20px;
+    border: 3px black solid;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+input:focus{
+    background-color: black;
+    color: white;
+}
+
+button{
+    margin-top: 10px;
+    background-color: black;
+    padding: 20px 30px;
+    width: 24%;
+    border: 0px;
+    margin: 10px;  
+    border: 3px black solid;
+    color: white; 
+    font-size: 22px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 3px;
+}
+button:hover{
+    color: black;  
+    background-color: white;
+    border: 3px black solid;   
+}
+a{
+    text-decoration: none;   
+}
+a:hover{
+    color: black;
+}
+
+#singInMain , #signButtons{
+    background-color: plum;
+    margin-left:20%;
+    margin-right: 20%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px;
+    
+
+}
+#signInHeader{
+    background-color:lightblue;
+    margin-left:20%;
+    margin-right: 20%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 15%;
+    text-align: center;
+    font-size: 50px;
+    text-shadow: gray 3px 3px;
+    padding: 10px;
+    margin-bottom: 0%;
+}
+.worng{
+    color: red;
+}
+.before_input{
+    font-size: 20px;
+    font-weight: bold;
+}
+#finish_main{
+    background-color: plum;
+    font-size: 30px;
+    height: 50%;
+    text-shadow: gray 3px 3px;
+}
+#finish_buttons{
+    background-color: lightblue;
+    height: 31%;
+    padding-top:150px;
+}
+#finish_header{
+    margin: 38px;
+}
+

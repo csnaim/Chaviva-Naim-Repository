@@ -1,0 +1,57 @@
+
+body{
+    margin: 0%;
+}
+#header{
+    height: 30%;
+    margin-left:20%;
+    margin-right: 20%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    text-align: center;
+    padding-top: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-left: 10px  black solid;
+    border-right: 10px  black solid;
+    background-color: plum;
+    font-size: 30px;
+    text-shadow: gray 3px 3px;
+    letter-spacing: 3px;
+}
+#buttons{
+    height: 65%;
+    margin-left:20%;
+    margin-right: 20%;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-left: 10px  black solid;
+    border-right: 10px  black solid;
+    background-color: lightblue;
+    padding-top: 50px;
+}
+button{
+    margin-top: 5px;
+    background-color: black;
+    padding: 15px 30px;
+    width: 20%;
+    border: 0px;
+    margin: 10px;  
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    border: 3px black solid; 
+    letter-spacing: 2px;
+}
+button:hover{
+    background-color: white;
+    border: 3px black solid; 
+    color: black;  
+}
+a{
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+a:hover{
+    color: black;
+}

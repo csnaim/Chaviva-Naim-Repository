@@ -1,0 +1,23 @@
+<html>
+    <head><title>Choose soduko level</title>
+        <link rel="stylesheet" href="chooseLevel.css"/>
+    </head>
+    <body>
+        <div id="header">
+        <h1>Choose Soduko Level</h1>
+        </div>   
+        <form action="game_page.html">
+            <div id="buttons">
+                 <input type="hidden" id="level" name="level" value=""></br>
+
+                <p> <button onclick="chooseLevelEasy()" type="submit">Easy</button></p></br>
+                <p> <button onclick="chooseLevelMedium()" type="submit">Medium</button></p></br>
+                <p> <button onclick="chooseLevelHard()" type="submit">Hard</button></p></br>
+       
+              </div>
+       
+        </form>
+        <script src="chooseLevel.js"></script>
+   
+    </body>
+</html>
